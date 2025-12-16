@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "spring-ollama"
+  ai:
+    ollama:
+      base-url: "http://localhost:11434"
+      chat:
+        # https://ollama.com/library/gemma3:1b
+        # Small model for our local system
+        model: "gemma3:1b"
