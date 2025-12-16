@@ -19,7 +19,7 @@ public class ConversationService {
     }
 
     public void call() {
-        var l = chatClient.prompt(new Prompt("Hello?"))
+        var l = chatClient.prompt(new Prompt("What is your purpose?"))
                 .call();
         System.out.println(l.content());
     }
