@@ -2,12 +2,13 @@ package com.github.mangila.ollama;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.stringtemplate.v4.STGroup;
 
 @SpringBootApplication
-public class OllamaApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(OllamaApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
